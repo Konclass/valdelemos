@@ -1,0 +1,107 @@
+/*========================================================
+Template name:  VPNet
+========================================================*/
+
+/* Main Color */
+.ColorSwitcher__control,
+.replaced-svg,
+a:hover,
+.header-info a,
+.header-menu > ul > li:hover > a, 
+.header-menu > ul > li.active > a,
+.header-menu ul ul li:hover > a, 
+.header-menu ul ul li > a:hover, 
+.header-menu ul ul li.active > a,
+.header-call a,
+.client-area span:hover,
+.client-area .dropdown-menu a:hover,
+.single-package ul li span,
+.single-package:hover p,
+.single-faq h3:before,
+.faq-answer p span,
+.play-btn,
+.single-news ul li a:hover,
+.single-news > a:hover,
+.single-product ul,
+.contact-widget-content ul li i,
+.contact-widget-content ul li a:hover,
+.footer-widget .menu > li > a:hover,
+.page-title li a:hover, 
+.page-title li:last-child a,
+.single-service:not(.single-service-white) svg,
+.single-service:not(.single-service-white) a,
+.service-details h2 span,
+.service-details ul li:before,
+.blog-pagination .active a,
+.search-widget button:hover,
+.blog-pagination a:hover,
+.list-widget li a:hover, 
+.list-widget li a:hover:before,
+.rpw-content > a:hover,
+.social-share li a:hover,
+.tags a:hover,
+.post-content blockquote span,
+.tags i,
+.post-share a:hover,
+.post-author-details a,
+.comment-reply,
+.star-rating,
+.in-stact i,
+.product-descripton .price, 
+.product-descripton .price ins,
+.pro-tab-nav a.active,
+.single-theme-feature i,
+.header-menu #menu-button {
+    color: #c63d0f;
+}
+
+/* Main background color */
+.btn:before,
+.theme-bg-overlay:before,
+.header-top-right form input,
+.header-top-right form button,
+.header-menu > ul > li > a:after, 
+.header-menu > ul > li.active > a:after, 
+.header-menu > ul > li:hover > a:after,
+.single-feature-content h4:before,
+.single-package .pupular-pack,
+.tip, a.tip,
+.bottom-footer a:hover,
+.back-to-top a,
+.social-share li,
+.primary-bg,
+.form-response {
+    background-color: #c63d0f;
+}
+
+/* Border color */
+.theme-input-style:focus,
+.footer-widget .menu > li:hover:before,
+.single-service:not(.single-service-white):hover {
+    border-color: #c63d0f;
+}
+
+/* Others */
+.review-text p:after,
+.review-author-info ul,
+.next-review .replaced-svg, 
+.prev-review .replaced-svg,
+.play-btn:hover {
+	color: #fff;
+}
+
+.client-area span,
+.header-call a:hover,
+.play-btn:hover,
+.list-widget li a:before,
+.search-widget button,
+.post-author-details a:hover {
+	color: #202e39;
+}
+
+.btn:after,
+a.tip:hover,
+.single-product .discount,
+.back-to-top a:hover {
+    background-color: #202e39;
+}

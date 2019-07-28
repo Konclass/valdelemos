@@ -16,15 +16,15 @@ if ( isset( $_POST[ 'email' ] ) || array_key_exists( 'email', $_POST ) ) :
 		'message'		=> $_POST[ 'message' ],
 		'body'			=> '',
 		"alerts"		=> array(
-			"error"			=> 'Message could not be sent.',
-			"success"		=> 'Thank your. Your message has been sent.',
+			"error"			=> 'El mensaje no pudo ser enviado.',
+			"success"		=> 'Gracias. El mensaje ha sido enviado.',
 		),
 	);
 	
-	$message[ 'body' ] .= '<b>Name:</b> ' . $message[ 'name' ];
+	$message[ 'body' ] .= '<b>Nombre:</b> ' . $message[ 'name' ];
 	$message[ 'body' ] .= '<br><b>Email:</b> ' . $message[ 'email' ];
-	$message[ 'body' ] .= '<br><b>Phone:</b> ' . $message[ 'phone' ];
-	$message[ 'body' ] .= '<br><br><b>Message:</b><br>' . $message[ 'message' ];
+	$message[ 'body' ] .= '<br><b>Tlf:</b> ' . $message[ 'phone' ];
+	$message[ 'body' ] .= '<br><br><b>Mensaje:</b><br>' . $message[ 'message' ];
 	
 	// Include
 	require 'phpmailer/Exception.php';
